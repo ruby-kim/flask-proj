@@ -9,4 +9,4 @@ app = create_app()
 if __name__ == "__main__":
     # Flask 개발 서버 실행
     # debug=True -> 코드 저장 시 자동으로 서버 재시작 + 에러 화면을 자세히 보여줌
-    app.run(debug=True)
+    app.run(debug=False)
